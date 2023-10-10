@@ -21,6 +21,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('api')->group(function () {
     Route::post('/calculate-fast-delivery', [DeliveryController::class, 'calculateFastDelivery']);
-    Route::post('/calculate-fast-delivery', [DeliveryController::class, 'calculateSlowDelivery']);
+    Route::post('/calculate-slow-delivery', [DeliveryController::class, 'calculateSlowDelivery']);
 });
 

@@ -4,7 +4,7 @@ MySQL - 8.0-Win10
 
 1) Запустить создать БД (я делал в phpmyadmin) - назвал её 'delivery' (написано это в .env файле)
 2) Запустить миграции - php artisan migrate
-3) Запустить seeders (заполни БД тестовыми данными) - php artisan db:seed --class=DeliverySeeder
+3) Запустить seeders (заполнил БД тестовыми данными) - php artisan db:seed --class=DeliverySeeder
 
 Использовал Laravel 
 

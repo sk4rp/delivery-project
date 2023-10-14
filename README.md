@@ -10,10 +10,10 @@ MySQL - 8.0-Win10
 
 "require": 
 {
-        "php": "^8.1",
-        "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.10",
-        "laravel/sanctum": "^3.2",
+        "php": "^8.1", <br>
+        "guzzlehttp/guzzle": "^7.2", <br>
+        "laravel/framework": "^10.10", <br>
+        "laravel/sanctum": "^3.2", <br>
         "laravel/tinker": "^2.8"
 },
 

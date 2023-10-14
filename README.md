@@ -9,12 +9,12 @@ MySQL - 8.0-Win10
 Использовал Laravel 
 
 "require": 
-{
+{ <br>
         "php": "^8.1", <br>
         "guzzlehttp/guzzle": "^7.2", <br>
         "laravel/framework": "^10.10", <br>
         "laravel/sanctum": "^3.2", <br>
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8" <br>
 },
 
 <hr>
@@ -23,17 +23,17 @@ MySQL - 8.0-Win10
 
 Требуется спроектировать модуль расчета стоимости доставки.
 Есть две службы доставки:
-1. «Быстрая доставка»:
-base_url: string
-@var sourceKladr string //кладр откуда везем
-@var targetKladr string //кладр куда везем
-@var weight float //вес отправления в кг
-@return json
-{
-    'price': float //стоимость
-    'period': int //количество дней начиная с сегодняшнего, но после 18.00
-заявки не принимаются.
-    'error': string
+1. «Быстрая доставка»: <br>
+base_url: string <br>
+@var sourceKladr string //кладр откуда везем <br>
+@var targetKladr string //кладр куда везем <br>
+@var weight float //вес отправления в кг <br>
+@return json <br>
+{ <br>
+    'price': float //стоимость <br>
+    'period': int //количество дней начиная с сегодняшнего, но после 18.00 
+заявки не принимаются. <br>
+    'error': string <br>
 }
 2. «Медленная доставка»:
 имеет базовую стоимость 150р
